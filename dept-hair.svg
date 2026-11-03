@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5f7"/><stop offset=".55" stop-color="#fde8ec"/><stop offset="1" stop-color="#f3eadb"/></linearGradient>
+    <linearGradient id="cr1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8173f"/><stop offset="1" stop-color="#9e0f30"/></linearGradient>
+    <linearGradient id="gd1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9bd8c"/><stop offset="1" stop-color="#b8935a"/></linearGradient>
+    <filter id="sh1" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#9e0f30" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg1)"/>
+  <!-- soft lotus petals -->
+  <g fill="#f2a7b6" opacity=".35">
+    <path d="M520 -10c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(25 520 60)"/>
+    <path d="M60 300c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(-30 60 360)"/>
+  </g>
+  <circle cx="300" cy="185" r="132" fill="#ffffff" opacity=".75"/>
+  <circle cx="300" cy="185" r="150" fill="none" stroke="#b8935a" stroke-width="1.5" stroke-dasharray="3 9" opacity=".7"/>
+  <!-- sparkles -->
+  <g fill="#b8935a">
+    <path d="M118 92c1.6 10 8 16 18 18-10 2-16.4 8-18 18-1.6-10-8-16-18-18 10-2 16.4-8 18-18Z"/>
+    <path d="M478 236c1.2 7 6 12 13 13-7 1-11.8 6-13 13-1.2-7-6-12-13-13 7-1 11.8-6 13-13Z"/>
+  </g>
+  <circle cx="150" cy="250" r="6" fill="#c8173f" opacity=".35"/>
+  <circle cx="455" cy="110" r="8" fill="#c8173f" opacity=".25"/>
+  <g filter="url(#sh1)">
+    <!-- head with flowing hair -->
+    <path d="M300 82c-60 0-96 44-96 98 0 40 14 70 8 104-2 12 8 18 18 12 22-14 34-40 34-40l8 26h56l8-26s12 26 34 40c10 6 20 0 18-12-6-34 8-64 8-104 0-54-36-98-96-98Z" fill="url(#cr1)"/>
+    <ellipse cx="300" cy="184" rx="52" ry="62" fill="#f3eadb"/>
+    <path d="M248 160c10-36 40-52 74-44 22 6 34 22 30 44-30-20-70-22-104 0Z" fill="#9e0f30"/>
+    <circle cx="282" cy="186" r="4" fill="#3a2a30"/><circle cx="318" cy="186" r="4" fill="#3a2a30"/>
+    <path d="M288 214q12 8 24 0" stroke="#c8173f" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- comb -->
+    <g transform="rotate(-20 440 210)">
+      <rect x="400" y="190" width="90" height="22" rx="8" fill="url(#gd1)"/>
+      <g fill="#b8935a"><rect x="404" y="210" width="5" height="30" rx="2"/><rect x="413.5" y="210" width="5" height="30" rx="2"/><rect x="423" y="210" width="5" height="30" rx="2"/><rect x="432.5" y="210" width="5" height="30" rx="2"/><rect x="442" y="210" width="5" height="30" rx="2"/><rect x="451.5" y="210" width="5" height="30" rx="2"/><rect x="461" y="210" width="5" height="30" rx="2"/><rect x="470.5" y="210" width="5" height="30" rx="2"/><rect x="480" y="210" width="5" height="30" rx="2"/></g>
+    </g></g>
+</svg>
