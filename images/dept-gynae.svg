@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5f7"/><stop offset=".55" stop-color="#fde8ec"/><stop offset="1" stop-color="#f3eadb"/></linearGradient>
+    <linearGradient id="cr7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8173f"/><stop offset="1" stop-color="#9e0f30"/></linearGradient>
+    <linearGradient id="gd7" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9bd8c"/><stop offset="1" stop-color="#b8935a"/></linearGradient>
+    <filter id="sh7" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#9e0f30" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg7)"/>
+  <!-- soft lotus petals -->
+  <g fill="#f2a7b6" opacity=".35">
+    <path d="M520 -10c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(25 520 60)"/>
+    <path d="M60 300c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(-30 60 360)"/>
+  </g>
+  <circle cx="300" cy="185" r="132" fill="#ffffff" opacity=".75"/>
+  <circle cx="300" cy="185" r="150" fill="none" stroke="#b8935a" stroke-width="1.5" stroke-dasharray="3 9" opacity=".7"/>
+  <!-- sparkles -->
+  <g fill="#b8935a">
+    <path d="M118 92c1.6 10 8 16 18 18-10 2-16.4 8-18 18-1.6-10-8-16-18-18 10-2 16.4-8 18-18Z"/>
+    <path d="M478 236c1.2 7 6 12 13 13-7 1-11.8 6-13 13-1.2-7-6-12-13-13 7-1 11.8-6 13-13Z"/>
+  </g>
+  <circle cx="150" cy="250" r="6" fill="#c8173f" opacity=".35"/>
+  <circle cx="455" cy="110" r="8" fill="#c8173f" opacity=".25"/>
+  <g filter="url(#sh7)">
+    <!-- heart with female symbol -->
+    <path d="M300 300s-120-66-120-150c0-44 32-70 66-70 26 0 44 14 54 32 10-18 28-32 54-32 34 0 66 26 66 70 0 84-120 150-120 150Z" fill="url(#cr7)"/>
+    <circle cx="300" cy="160" r="38" fill="none" stroke="#ffffff" stroke-width="10"/>
+    <path d="M300 198v56M276 230h48" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <!-- lotus -->
+    <g transform="translate(440 250)" fill="url(#gd7)">
+      <path d="M0 0c-8-22-6-40 0-52 6 12 8 30 0 52Z"/>
+      <path d="M0 0c-22-6-36-20-38-36 16 2 32 14 38 36Z"/>
+      <path d="M0 0c22-6 36-20 38-36-16 2-32 14-38 36Z"/>
+    </g>
+    <g transform="translate(160 250)" fill="#f2a7b6">
+      <path d="M0 0c-6-16-4-30 0-40 4 10 6 24 0 40Z"/>
+      <path d="M0 0c-16-4-26-14-28-26 12 2 24 10 28 26Z"/>
+      <path d="M0 0c16-4 26-14 28-26-12 2-24 10-28 26Z"/>
+    </g></g>
+</svg>

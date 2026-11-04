@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg10" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5f7"/><stop offset=".55" stop-color="#fde8ec"/><stop offset="1" stop-color="#f3eadb"/></linearGradient>
+    <linearGradient id="cr10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8173f"/><stop offset="1" stop-color="#9e0f30"/></linearGradient>
+    <linearGradient id="gd10" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9bd8c"/><stop offset="1" stop-color="#b8935a"/></linearGradient>
+    <filter id="sh10" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#9e0f30" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg10)"/>
+  <!-- soft lotus petals -->
+  <g fill="#f2a7b6" opacity=".35">
+    <path d="M520 -10c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(25 520 60)"/>
+    <path d="M60 300c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(-30 60 360)"/>
+  </g>
+  <circle cx="300" cy="185" r="132" fill="#ffffff" opacity=".75"/>
+  <circle cx="300" cy="185" r="150" fill="none" stroke="#b8935a" stroke-width="1.5" stroke-dasharray="3 9" opacity=".7"/>
+  <!-- sparkles -->
+  <g fill="#b8935a">
+    <path d="M118 92c1.6 10 8 16 18 18-10 2-16.4 8-18 18-1.6-10-8-16-18-18 10-2 16.4-8 18-18Z"/>
+    <path d="M478 236c1.2 7 6 12 13 13-7 1-11.8 6-13 13-1.2-7-6-12-13-13 7-1 11.8-6 13-13Z"/>
+  </g>
+  <circle cx="150" cy="250" r="6" fill="#c8173f" opacity=".35"/>
+  <circle cx="455" cy="110" r="8" fill="#c8173f" opacity=".25"/>
+  <g filter="url(#sh10)">
+    <!-- medicine bottle -->
+    <rect x="216" y="128" width="120" height="164" rx="18" fill="url(#cr10)"/>
+    <rect x="226" y="96" width="100" height="40" rx="8" fill="url(#gd10)"/>
+    <rect x="236" y="168" width="80" height="84" rx="8" fill="#ffffff"/>
+    <path d="M276 186v48M252 210h48" stroke="#c8173f" stroke-width="12" stroke-linecap="round"/>
+    <!-- capsule -->
+    <g transform="rotate(-35 420 170)">
+      <rect x="370" y="150" width="100" height="40" rx="20" fill="#ffffff" stroke="#9e0f30" stroke-width="4"/>
+      <path d="M390 150h30v40h-30a20 20 0 0 1 0-40Z" fill="url(#cr10)"/>
+    </g>
+    <!-- pills -->
+    <circle cx="402" cy="262" r="22" fill="url(#gd10)"/><path d="M386 262h32" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="452" cy="252" r="16" fill="#ffffff" stroke="#f2a7b6" stroke-width="4"/>
+    <circle cx="160" cy="210" r="16" fill="#f7c9d3"/></g>
+</svg>

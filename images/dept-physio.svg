@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5f7"/><stop offset=".55" stop-color="#fde8ec"/><stop offset="1" stop-color="#f3eadb"/></linearGradient>
+    <linearGradient id="cr9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8173f"/><stop offset="1" stop-color="#9e0f30"/></linearGradient>
+    <linearGradient id="gd9" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9bd8c"/><stop offset="1" stop-color="#b8935a"/></linearGradient>
+    <filter id="sh9" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#9e0f30" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg9)"/>
+  <!-- soft lotus petals -->
+  <g fill="#f2a7b6" opacity=".35">
+    <path d="M520 -10c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(25 520 60)"/>
+    <path d="M60 300c22 30 30 62 22 96-6 26-14 40-22 50-8-10-16-24-22-50-8-34 0-66 22-96Z" transform="rotate(-30 60 360)"/>
+  </g>
+  <circle cx="300" cy="185" r="132" fill="#ffffff" opacity=".75"/>
+  <circle cx="300" cy="185" r="150" fill="none" stroke="#b8935a" stroke-width="1.5" stroke-dasharray="3 9" opacity=".7"/>
+  <!-- sparkles -->
+  <g fill="#b8935a">
+    <path d="M118 92c1.6 10 8 16 18 18-10 2-16.4 8-18 18-1.6-10-8-16-18-18 10-2 16.4-8 18-18Z"/>
+    <path d="M478 236c1.2 7 6 12 13 13-7 1-11.8 6-13 13-1.2-7-6-12-13-13 7-1 11.8-6 13-13Z"/>
+  </g>
+  <circle cx="150" cy="250" r="6" fill="#c8173f" opacity=".35"/>
+  <circle cx="455" cy="110" r="8" fill="#c8173f" opacity=".25"/>
+  <g filter="url(#sh9)">
+    <!-- spine -->
+    <g fill="url(#cr9)"><rect x="250" y="92" width="60" height="22" rx="10"/><rect x="263" y="122" width="60" height="22" rx="10"/><rect x="272.5166604983954" y="152" width="60" height="22" rx="10"/><rect x="276" y="182" width="60" height="22" rx="10"/><rect x="272.5166604983954" y="212" width="60" height="22" rx="10"/><rect x="263" y="242" width="60" height="22" rx="10"/><rect x="250" y="272" width="60" height="22" rx="10"/></g>
+    <g fill="#f3eadb"><rect x="268.72929517266556" y="114" width="36" height="8" rx="4"/><rect x="280.3847763108502" y="144" width="36" height="8" rx="4"/><rect x="287.1140714835158" y="174" width="36" height="8" rx="4"/><rect x="287.1140714835158" y="204" width="36" height="8" rx="4"/><rect x="280.3847763108502" y="234" width="36" height="8" rx="4"/><rect x="268.72929517266556" y="264" width="36" height="8" rx="4"/></g>
+    <!-- dumbbell -->
+    <g transform="rotate(-20 440 250)">
+      <rect x="390" y="242" width="100" height="14" rx="7" fill="#3a2a30"/>
+      <rect x="374" y="220" width="22" height="58" rx="8" fill="url(#gd9)"/>
+      <rect x="484" y="220" width="22" height="58" rx="8" fill="url(#gd9)"/>
+    </g>
+    <!-- motion arcs -->
+    <path d="M170 130a80 80 0 0 0 0 110" stroke="#b8935a" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="2 12"/></g>
+</svg>
